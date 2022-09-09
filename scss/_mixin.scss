@@ -1,0 +1,13 @@
+@mixin mark {
+    margin: 0;
+    text-decoration: none;
+    color: #1F2937;
+}
+
+@mixin list {
+    list-style: none;
+}
+
+@mixin paragraph {
+    color: #9CA3AF;
+}

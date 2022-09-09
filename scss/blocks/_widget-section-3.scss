@@ -1,0 +1,112 @@
+
+.widget-section-3 {
+    background-image: url(../../img/Flower.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20%;
+    padding-bottom: 100%;
+
+}
+
+.boss-widget {
+    display: flex;
+}
+
+.big-widget {
+    margin-left: -107px;
+    margin-right: 10px;
+}
+
+.big-widget h2 {
+    color: $color-main;
+    font-size: 50px;
+    margin: 0;
+    margin-left: 178px;
+    letter-spacing: 1px;
+    line-height: 130px;
+    margin-top: 10%;
+    padding-top: 12%;
+    margin-right: 196px;
+}
+
+.big-widget a {
+    text-decoration: none;
+    color: white;
+    background-color: $color-main;
+    border: 1px solid $color-main;
+    border-radius: 8px;
+    padding: 8px 9px;
+    margin-left: 28%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    width: 270px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+}
+
+.card:nth-child(1) {
+    position: relative;
+}
+
+.card img {
+    margin-left: 10px;
+}
+
+.big-content {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 30%;
+    padding: 32px 55px;
+    margin-top: -7%;
+    margin-left: 1%;
+    border-radius: 0px 27px;
+    background: rgba(255, 255, 255, 0.3);
+    filter: blur(0.1px);
+    height: 30%;
+}
+
+.big-content span {
+    margin-top: -17px;
+    border: 1px solid #5FD788;
+    color: white;
+    background-color: #5FD788;
+    border-radius: 21px;
+    padding: 0px 9px;
+    margin-left: 9px;
+    width: 39px;
+    height: 16px;
+    font-size: 67%;
+}
+
+.big-content h4 {
+    font-size: 20px;
+    margin-top: -24px;
+    margin-left: -36px;
+    height: 30px;
+    max-width: 175px;
+}
+
+.mini-cont {
+    display: flex;
+}
+
+.content p {
+    margin: 0;
+    margin-left: -37px;
+    max-width: 281px;
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.content {
+    display: flex;
+}
+
+.content button {
+    border: none;
+    margin-right: -36px;
+    margin-top: -17px;
+    opacity: 1;
+}

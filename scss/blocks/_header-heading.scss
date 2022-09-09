@@ -1,0 +1,76 @@
+
+.boss {
+    padding: 11px 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+}
+
+
+
+.navigation ul li {
+    @include list;
+}
+
+.navigation ul li a {
+    @include mark ;
+}
+
+.navigation ul {
+    display: flex;
+    margin: 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.header-inner .navigation {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.navigation ul li a {
+    font-family: "Fraunces";
+}
+
+.lip a {
+    width: 69px;
+}
+
+.header-inner h1 {
+    height: 6px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.header-inner span {
+    margin-top: 20px;
+    margin-left: 12px;
+    height: 0px;
+}
+
+.palla {
+    display: flex;
+}
+
+.ulation {
+    display: flex;
+    @include list;
+    justify-content: space-between;
+}
+
+.ulation li {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.dop {
+    display: flex;
+    margin-left: 70%;
+}
+
+
