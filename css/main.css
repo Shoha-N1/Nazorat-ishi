@@ -9,15 +9,15 @@ body {
 
 h1, h4 {
   margin: 0;
-  font-family: "Fraunces";
+  font-family: "M PLUS Rounded 1c";
 }
 
 p {
-  font-family: "Fraunces";
+  font-family: "M PLUS Rounded 1c";
 }
 
 h2 {
-  font-family: "Fraunces";
+  font-family: "M PLUS Rounded 1c";
 }
 
 a {
@@ -239,11 +239,18 @@ a {
   display: flex;
 }
 
-.widget-section-3 {
+.widget-head {
   background-image: url(../../img/Flower.png);
   background-repeat: no-repeat;
-  margin-bottom: 20%;
-  padding-bottom: 100%;
+  padding-bottom: 30%;
+  margin-bottom: 7%;
+}
+
+.widget-header {
+  background-image: url(../../img/Flower-2.png);
+  background-repeat: no-repeat;
+  padding-bottom: 30%;
+  margin-bottom: 7%;
 }
 
 .boss-widget {
@@ -267,7 +274,7 @@ a {
   margin-right: 196px;
 }
 
-.big-widget a {
+.dark {
   text-decoration: none;
   color: white;
   background-color: #5FD788;
@@ -288,6 +295,7 @@ a {
 
 .card:nth-child(1) {
   position: relative;
+  margin-top: 2%;
 }
 
 .card:nth-child(2) {
@@ -303,10 +311,10 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   max-width: 24.9%;
   padding: 32px 55px;
-  margin-top: -7%;
+  margin-top: -8%;
   margin-left: 1%;
   border-radius: 0px 27px;
-  background: rgba(255, 255, 255, 0.3);
+  background-color: whitesmoke;
   filter: blur(0.1px);
   max-height: 30%;
 }
@@ -325,11 +333,11 @@ a {
 }
 
 .big-content h4 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: -24px;
   margin-left: -36px;
   height: 30px;
-  max-width: 175px;
+  max-width: 190px;
 }
 
 .mini-cont {
@@ -363,9 +371,67 @@ a {
 }
 
 .second-page {
-  margin-top: -105px;
-  margin-left: 407px;
+  margin-top: -115px;
+  margin-left: 405px;
   padding: 38px 55px;
-  max-width: 30%;
+  max-width: 25%;
   max-height: 15%;
+}
+
+.ul-button {
+  margin: 0;
+  display: flex;
+  margin-top: 77px;
+  margin-left: 338px;
+}
+
+.ul-button button {
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid grey;
+}
+
+.mil {
+  background-color: grey;
+}
+
+.pok {
+  background-color: #5FD788;
+}
+
+.ul-button li {
+  margin-right: 10px;
+  list-style: none;
+}
+
+.tip-mega {
+  position: relative;
+  margin-bottom: 20%;
+  margin-left: 2%;
+  background-color: #5FD788;
+  padding: 4.1% 2%;
+  max-width: 86%;
+  background-image: url(../../img/Texture_2_.png);
+}
+
+.desert {
+  position: absolute;
+  max-width: 42.1%;
+  margin-left: 687px;
+  margin-top: -370px;
+}
+
+.tip h2 {
+  margin: 0;
+  font-size: 45px;
+  width: 550px;
+  line-height: 120%;
+  color: white;
+}
+
+.modi {
+  margin-left: 3px;
+  margin-top: 55px;
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
