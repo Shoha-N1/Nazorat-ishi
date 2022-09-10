@@ -8,7 +8,10 @@
     top: 0;
 }
 
-
+.palla span {
+    font-weight: 600;
+    font-size: 20px;
+}
 
 .navigation ul li {
     @include list;
@@ -44,7 +47,7 @@
 .header-inner h1 {
     height: 6px;
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 19px;
 }
 
 .header-inner span {

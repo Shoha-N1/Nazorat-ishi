@@ -1,0 +1,50 @@
+
+.boss-footer {
+    background: #F3F4F6;
+    border: 0.5px solid #F3F4F6;
+    height: 380px;
+    max-width: 1250px;
+    margin-left: 50px;
+}
+
+.seel {
+    margin-left: 46px;
+    margin-top: 51px;
+}
+
+.navbarbek li {
+    @include list;
+    flex-wrap: wrap;
+    max-width: 150px;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.navbarbek li a {
+    color: #9CA3AF;
+    width: 256px;
+    text-decoration: none;
+    padding: 4px;
+    margin-left: -45px;
+}
+
+.navbarbek li h3 {
+    color: $color-main;
+    margin-top: 30px;
+    width: 160px;
+    line-height: 135%;
+    margin-bottom: 12px;
+}
+
+.navbarbek ul {
+    display: flex;
+    margin-left: 16%;
+    margin-top: -36px;
+}
+
+.foot-p {
+    text-align: center;
+    margin-top: 8%;
+    max-width: 200px;
+    margin-left: 50%;
+}

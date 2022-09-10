@@ -7,7 +7,7 @@ body {
   margin-top: 75px;
 }
 
-h1, h4 {
+h1, h3, h4 {
   margin: 0;
   font-family: "M PLUS Rounded 1c";
 }
@@ -50,8 +50,14 @@ a {
   top: 0;
 }
 
+.palla span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .navigation ul li {
   list-style: none;
+  margin: 0;
 }
 
 .navigation ul li a {
@@ -85,7 +91,7 @@ a {
 .header-inner h1 {
   height: 6px;
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 19px;
 }
 
 .header-inner span {
@@ -101,6 +107,7 @@ a {
 .ulation {
   display: flex;
   list-style: none;
+  margin: 0;
   justify-content: space-between;
 }
 
@@ -163,6 +170,7 @@ a {
 
 .box-1 ul li {
   list-style: none;
+  margin: 0;
   padding: 4% 6%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
   border-radius: 0px 20px;
@@ -402,6 +410,7 @@ a {
 .ul-button li {
   margin-right: 10px;
   list-style: none;
+  margin: 0;
 }
 
 .tip-mega {
@@ -483,4 +492,55 @@ a {
   margin: 0;
   line-height: 28px;
   font-size: 16px;
+}
+
+.boss-footer {
+  background: #F3F4F6;
+  border: 0.5px solid #F3F4F6;
+  height: 380px;
+  max-width: 1250px;
+  margin-left: 50px;
+}
+
+.seel {
+  margin-left: 46px;
+  margin-top: 51px;
+}
+
+.navbarbek li {
+  list-style: none;
+  margin: 0;
+  flex-wrap: wrap;
+  max-width: 150px;
+  text-align: center;
+  margin-left: 12%;
+}
+
+.navbarbek li a {
+  color: #9CA3AF;
+  width: 256px;
+  text-decoration: none;
+  padding: 4px;
+  margin-left: -45px;
+}
+
+.navbarbek li h3 {
+  color: #5FD788;
+  margin-top: 30px;
+  width: 160px;
+  line-height: 135%;
+  margin-bottom: 12px;
+}
+
+.navbarbek ul {
+  display: flex;
+  margin-left: 16%;
+  margin-top: -36px;
+}
+
+.foot-p {
+  text-align: center;
+  margin-top: 8%;
+  max-width: 200px;
+  margin-left: 50%;
 }/*# sourceMappingURL=main.css.map */
