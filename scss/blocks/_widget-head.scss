@@ -169,6 +169,6 @@
 }
 
 .ul-button li {
-    margin-right: 10px;
     @include list;
+    width: 21px;
 }
