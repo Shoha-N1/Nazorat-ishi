@@ -115,7 +115,7 @@ a {
 }
 
 .section-head-1 {
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .section-body h2 {
@@ -188,11 +188,11 @@ a {
 }
 
 .spayk-section-two {
-  margin-bottom: 17%;
+  margin-bottom: 15%;
 }
 
 .pik-2 {
-  padding-bottom: 19%;
+  padding-bottom: 12%;
   margin-right: 21px;
   margin-left: -29px;
   margin-top: 59px;
@@ -242,15 +242,15 @@ a {
 .widget-head {
   background-image: url(../../img/Flower.png);
   background-repeat: no-repeat;
-  padding-bottom: 30%;
-  margin-bottom: 7%;
+  padding-bottom: 20%;
+  margin-bottom: 1px;
 }
 
 .widget-header {
   background-image: url(../../img/Flower-2.png);
   background-repeat: no-repeat;
-  padding-bottom: 30%;
-  margin-bottom: 7%;
+  padding-bottom: 20%;
+  margin-bottom: 1px;
 }
 
 .boss-widget {
@@ -406,7 +406,7 @@ a {
 
 .tip-mega {
   position: relative;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
   margin-left: 2%;
   background-color: #5FD788;
   padding: 4.1% 2%;
@@ -434,4 +434,53 @@ a {
   margin-top: 55px;
   background-color: white;
   color: black;
+}
+
+.bigger-post {
+  margin-bottom: 15%;
+}
+
+.post ul {
+  display: flex;
+}
+
+.post ul li {
+  list-style: none;
+  margin-right: 5%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 5%;
+  height: 440px;
+}
+
+.post ul li img {
+  border-radius: 5%;
+}
+
+.post h2 {
+  color: #5FD788;
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+  line-height: 53.95px;
+  margin-bottom: 3.5%;
+  margin-left: 121px;
+  letter-spacing: 1px;
+}
+
+.post h3 {
+  color: #5FD788;
+  font-size: 23px;
+  line-height: 144%;
+  max-width: 370px;
+  margin: 0;
+  padding: 20px 20px 29px 20px;
+}
+
+.post p {
+  padding: 5px 21px;
+  max-width: 373px;
+  margin: 0;
+  line-height: 28px;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
