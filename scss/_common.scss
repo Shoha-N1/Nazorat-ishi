@@ -3,8 +3,7 @@
 }
 
 body {
-    margin: 0;
-    margin-top: 75px;
+    overflow-x: hidden;
 }
 
 h1, h3, h4 { 
@@ -26,8 +25,7 @@ a {
 
 .container {
     max-width: $laptop;
-    margin: 0 15px;
-    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .visually-hidden {

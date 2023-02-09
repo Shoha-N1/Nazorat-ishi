@@ -56,6 +56,8 @@
     padding: 4% 6%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 0px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 .box-1 ul li:hover {
